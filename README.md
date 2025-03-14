@@ -24,7 +24,7 @@ The classification model uses a pipeline with:
 1. **OneHotEncoder** for preprocessing categorical features
 2. **RandomForestClassifier** for classification
 
-The model is optimized using GridSearchCV with a focus on maximizing recall (to minimize false negatives, which is critical for mushroom classification).
+The model's performance was optimized through GridSearchCV, with a primary objective of maximizing recall. This is crucial for mushroom classification, as minimizing false negatives (i.e., misclassifying poisonous mushrooms) is paramount. A key strategy employed was the use of class_weight within the hyperparameter grid to address potential class imbalance. This approach resulted in the model achieving 100% accuracy.
 
 ## Results
 
