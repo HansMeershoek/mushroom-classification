@@ -69,6 +69,7 @@ These visualizations help in understanding the model's performance in detail, es
 ## How to Run
 
 1. Clone this repository
+
 2. Install the required packages:
    ```
    pip install -r requirements.txt
@@ -76,14 +77,6 @@ These visualizations help in understanding the model's performance in detail, es
 3. Run the main classification script:
    ```
    python mushroom_classification.py
-   ```
-4. Generate the standard and normalized confusion matrix visualizations:
-   ```
-   python confusion_matrix_visualizations.py
-   ```
-5. Generate the before and after comparison matrices:
-   ```
-   python generate_comparison_matrices.py
    ```
 
 ## Required Packages
